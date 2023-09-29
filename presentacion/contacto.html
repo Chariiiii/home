@@ -18,17 +18,14 @@
 
     <h1 class="contacto-title">Formulario de Contacto</h1>
     <form class="formulario" action="procesar.php" method="post">
-        <!-- Campo de entrada de texto para el nombre -->
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required>
         <br>
         
-        <!-- Campo de entrada de correo electrónico -->
         <label for="correo">Correo Electronico:</label>
         <input type="email" id="correo" name="correo" rows="4" cols="50">
         <br>
         
-        <!-- Campo de selección (dropdown) para la edad -->
         <label for="edad">Genero:</label>
         <select id="edad" name="edad">
             <option value="menos_de_18">Masculino</option>
@@ -37,12 +34,10 @@
             <option value="mas_de_50">Otro</option>
         </select>
         <br>
-        <!-- Campo de entrada de texto para comentarios -->
         <label for="comentarios">Comentarios:</label>
         <p></p>
         <textarea id="comentarios" name="comentarios" rows="10" cols="20"></textarea>
         <br>
-        <!-- Botón de envío del formulario -->
         <input type="submit" value="Enviar">
         <br>
     </form>
