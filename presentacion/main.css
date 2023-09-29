@@ -41,6 +41,7 @@ color: #ffffff;
 .formulario{
 background-color: #86868b;
 padding: 10px;
+display: flex;
 
 }
 .contacto-title{
